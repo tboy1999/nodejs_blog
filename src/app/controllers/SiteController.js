@@ -1,9 +1,7 @@
-
 class SiteController {
-
     // [GET] / news
     index(req, res) {
-        res.render('home')
+        res.render('home');
     }
 
     //[GET] /news/:slug
@@ -12,4 +10,4 @@ class SiteController {
     // }
 }
 
-module.exports = new SiteController;
+module.exports = new SiteController();
